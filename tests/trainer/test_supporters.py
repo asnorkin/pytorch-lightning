@@ -21,7 +21,6 @@ from pytorch_lightning.trainer.supporters import (
     CycleIterator, CombinedLoader, CombinedDataset, CombinedLoaderIterator, TensorRunningAccum)
 
 
-
 def test_tensor_running_accum_reset():
     """ Test that reset would set all attributes to the initialization state """
 
